@@ -1,0 +1,125 @@
+Explanation of Fields in emissions.csv
+
+timestamp
+Description: The date and time when the emissions data was recorded.
+Format: ISO 8601 timestamp (e.g., 2024-07-29T10:00:00).
+
+project_name
+Description: The name of the project or experiment for which the emissions data is being recorded.
+Example: text_summarization.
+
+run_id
+Description: A unique identifier for the specific run or session of the project.
+Example: run1234.
+
+duration
+Description: The total time period during which the energy consumption was measured.
+Unit: Seconds.
+
+emissions
+Description: The total carbon emissions measured during the duration of the run.
+Unit: Emissions as CO₂-equivalents [CO₂eq], in kg
+
+emissions_rate
+Description: The rate of carbon emissions per unit time.
+Unit: Grams of CO2 per second (Kg/s).
+
+cpu_power
+Description: The power consumed by the CPU during the measurement period.
+Unit: Watts (W).
+
+gpu_power
+Description: The power consumed by the GPU during the measurement period.
+Unit: Watts (W).
+
+ram_power
+Description: The power consumed by the RAM during the measurement period.
+Unit: Watts (W).
+
+cpu_energy
+Description: The total energy consumed by the CPU during the measurement period.
+Unit: Kilowatt-hours (kWh).
+
+gpu_energy
+Description: The total energy consumed by the GPU during the measurement period.
+Unit: Kilowatt-hours (kWh).
+
+ram_energy
+Description: The total energy consumed by the RAM during the measurement period.
+Unit: Kilowatt-hours (kWh).
+
+energy_consumed
+Description: The total energy consumed by the entire system (CPU, GPU, RAM) during the measurement period.
+Unit: Kilowatt-hours (kWh).
+
+country_name
+Description: The name of the country where the computation was performed.
+Example: United States.
+
+country_iso_code
+Description: The ISO code for the country where the computation was performed.
+Example: US.
+
+region
+Description: The specific region or state within the country where the computation was performed.
+Example: California.
+
+cloud_provider
+Description: The name of the cloud provider if the computation was performed in the cloud.
+Example: AWS.
+
+cloud_region
+Description: The specific cloud region or data center location.
+Example: us-west-2.
+
+os
+Description: The operating system used during the computation.
+Example: Linux.
+
+python_version
+Description: The version of Python used for the computation.
+Example: 3.8.10.
+
+codecarbon_version
+Description: The version of the CodeCarbon library used.
+Example: 2.1.0.
+
+cpu_count
+Description: The number of CPU cores used during the computation.
+Example: 8.
+
+cpu_model
+Description: The model of the CPU used during the computation.
+Example: Intel(R) Xeon(R) Platinum 8259CL.
+
+gpu_count
+Description: The number of GPUs used during the computation.
+Example: 1.
+
+gpu_model
+Description: The model of the GPU used during the computation.
+Example: NVIDIA GeForce GTX 1650.
+
+longitude
+Description: The longitude of the location where the computation was performed.
+Example: -122.4194.
+
+latitude
+Description: The latitude of the location where the computation was performed.
+Example: 37.7749.
+
+ram_total_size
+Description: The total size of RAM available during the computation.
+Unit: Gigabytes (GB).
+
+tracking_mode
+Description: Indicates the mode of tracking used, such as whether emissions were tracked continuously or periodically.
+Example: continuous.
+
+on_cloud
+Description: A flag indicating whether the computation was performed on a cloud platform.
+Example: True or False.
+
+pue
+Description: Power Usage Effectiveness (PUE) of the data center, which measures the energy efficiency of the data center's infrastructure.
+Example: 1.2.

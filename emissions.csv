@@ -1,0 +1,5 @@
+Task,Model,energy_consumed,Hosted country,Server,PUE,CO2 Intensity gCO2e/kWh,Amount of CO2 emitted in grams
+Finetune and inference,distilbret_imdb - 3,0.014314883,India,PC,NA,708,10.13493703
+inference,distilgpt2 ,1.83E-05,India,PC,NA,708,0.0129564
+,gpt2 inference,2.30E-05,India,PC,NA,708,0.016284
+,meta-textgeneration-llama-3-1-8b-instruct,0.000347227,United States,cloud,1.1,431,0.164620321
